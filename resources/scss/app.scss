@@ -1,6 +1,26 @@
 /*resources/scss/app.scss*/
 @import "~bootstrap/scss/bootstrap";
 
+//***** BODY
+
+//***** /BODY
 body {
     background-color: white;
 }
+
+//***** HEADER
+header {
+    background-color: #FF6900;
+    color: white;
+}
+
+//***** /HEADER
+
+
+//***** Footer
+footer {
+    background-color: black;
+    color: white;
+}
+
+//***** /Footer

@@ -1,14 +1,15 @@
 <footer>
-    <div class="container text-center">
-        <div class="d-flex justify-content-between">
-            <div class="col-4">
-                footer-left
+    <div class="container ">
+        <div class="row justify-content-center text-center">
+            <div class="col-4 text-start">
+                @include('shared.left')
+
 
             </div>
             <div class="col-4"></div>
 
             <div class="col-4">
-                footer-right
+                @include('shared.right')
 
             </div>
         </div>

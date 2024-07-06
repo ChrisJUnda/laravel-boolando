@@ -20,7 +20,20 @@
 
     {{-- MAIN --}}
     <main>
+        {{-- ESEMPIO ****** --}}
+        {{-- <ul>
+            @foreach ($products as $product)
+                <li>
+                    @include('shared.foto')
+                </li>
+            @endforeach
+        </ul> --}}
+        {{-- FINE ESEMPIO***** --}}
         @include('shared.foto')
+
+
+
+
     </main>
     {{-- /MAIN --}}
 
