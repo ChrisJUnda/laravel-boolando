@@ -8,7 +8,7 @@
             </div>
             <div class="col-4"></div>
 
-            <div class="col-4">
+            <div class="col-4 text-end">
                 @include('shared.right')
 
             </div>

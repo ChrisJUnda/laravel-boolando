@@ -1,7 +1,7 @@
 <div>
     Trovaci anche su
 </div>
-<div class="text-white">
+<div class="text-white ">
     <span>
         <i class="fa-brands fa-twitter fa-sm"></i>
     </span>

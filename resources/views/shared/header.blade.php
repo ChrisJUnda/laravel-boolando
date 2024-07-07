@@ -1,7 +1,7 @@
 <header>
     <div class="container p-3">
-        <div class="row justify-content-center text-center">
-            <div class="col-4 ">
+        <div class="row justify-content-center text-center ">
+            <div class="col-4">
                 @include('shared.menu')
             </div>
             <div class="col-4">
@@ -15,3 +15,10 @@
 
 
 </header>
+
+<style scoped>
+    header {
+
+        z-index: 1;
+    }
+</style>

@@ -12,7 +12,7 @@
 
 <div class="card">
     <div class="position-relative immagine">
-        <img class="w-100 main-image" src="{{ Vite::asset('resources/img/' . $product['frontImage']) }}"
+        <img class="w-100 front-image" src="{{ Vite::asset('resources/img/' . $product['frontImage']) }}"
             alt="Immagine prodotto">
         <img class="w-100 position-absolute top-0 start-0 hover-image"
             src="{{ Vite::asset('resources/img/' . $product['backImage']) }}" alt="Immagine" class ="mb-0">
