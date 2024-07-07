@@ -19,17 +19,18 @@
 
 
     {{-- MAIN --}}
-    <main>
-        {{-- ESEMPIO ****** --}}
-        {{-- <ul>
-            @foreach ($products as $product)
-                <li>
-                    @include('shared.foto')
-                </li>
-            @endforeach
-        </ul> --}}
-        {{-- FINE ESEMPIO***** --}}
-        @include('shared.foto')
+    <main class="p-3">
+
+
+        <div class="container">
+            <div class="row">
+                @foreach ($products as $product)
+                    <div class="col-4 g-5">
+                        @include('shared.foto')
+                    </div>
+                @endforeach
+            </div>
+        </div>
 
 
 
