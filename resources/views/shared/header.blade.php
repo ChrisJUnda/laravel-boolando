@@ -1,6 +1,6 @@
 <header>
     <div class="container p-3">
-        <div class="row justify-content-center text-center ">
+        <div class="row justify-content-center text-center align-items-center ">
             <div class="col-4">
                 @include('shared.menu')
             </div>

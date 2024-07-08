@@ -16,6 +16,13 @@
             alt="Immagine prodotto">
         <img class="w-100 position-absolute top-0 start-0 hover-image"
             src="{{ Vite::asset('resources/img/' . $product['backImage']) }}" alt="Immagine" class ="mb-0">
+        <div class="position-absolute d-flex gap-2 badges-section">
+            @foreach (array_reverse($product['badges']) as $badge)
+                @include('shared.badge')
+            @endforeach
+        </div>
+
+
 
     </div>
     <div class="card-body">
@@ -48,5 +55,10 @@
 
     .front-image:hover {
         opacity: 0;
+    }
+
+    .badges-section {
+        bottom: 20px;
+        z-index: 999;
     }
 </style>
